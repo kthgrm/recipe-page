@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+    font-family: Outfit;
+    color: hsl(30, 10%, 34%);
+}
+
+body p{
+    font-size: 16px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    padding: 2rem;
+    margin: 6rem 0rem;
+}
+
+.container:nth-child(1) p{
+    margin: 1rem 0rem;
+}
+
+img{
+    align-self: center;
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: 1rem;
+}
+
+h1{
+    color: hsl(24, 5%, 18%);
+    font-family: 'Young Serif';
+    font-weight: 700;
+}
+
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: .5rem;
+    padding: 1rem 1.5rem .5rem;
+    margin: .5rem 0rem;
+}
+
+.prep h3{
+    color: hsl(332, 51%, 32%);
+}
+
+.prep ul{
+    color: hsl(332, 51%, 32%);
+    margin-left: .5rem;
+}
+
+.prep li{
+    margin: 1rem ;
+}
+
+.prep li b{
+    color: hsl(24, 5%, 18%);
+}
+
+.prep li span{
+    color: hsl(30, 10%, 34%);
+    margin-left: .5rem;
+}
+
+.ingredient{
+    margin: 1rem 0rem;
+}
+
+.ingredient h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-weight: 600;
+}
+
+.ingredient ul{
+    color: hsl(14, 45%, 36%);
+    margin-left: .5rem;
+}
+
+.ingredient li{
+    margin: 1rem;
+}
+
+.ingredient li span{
+    color: hsl(24, 5%, 18%);
+    margin-left: .5rem;
+}
+
+hr{
+    border: .5px solid hsl(30, 18%, 87%);
+}
+
+.instruction{
+    margin: 1.5rem 0rem 1rem;
+}
+
+.instruction h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-weight: 600;
+}
+
+.instruction ol{
+    color: hsl(14, 45%, 36%);
+    margin-left: .5rem;
+    font-weight: 700;
+}
+
+.instruction li{
+    margin: 1rem;
+}
+
+.instruction li span{
+    color: hsl(24, 5%, 18%);
+    margin-left: .5rem;
+    font-weight: 400;
+}
+
+.nutrition{
+    margin: 1.5rem 0rem 1rem;
+}
+
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-weight: 600;
+}
+
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutrition table tr:last-child {
+    border-bottom: none;
+}
+
+.nutrition table th {
+    font-weight: normal;
+    text-align: left;
+    padding: 1rem 1rem 1rem  2rem;
+    width: calc(100% / 3);
+}
+
+.nutrition table td {
+    font-size: 16px;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    width: calc(100% / 3);
+}
